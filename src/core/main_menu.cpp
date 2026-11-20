@@ -2,11 +2,13 @@
 #include "display.h"
 #include "utils.h"
 #include <globals.h>
+#include "menu_items/PyraMenu.h"
 
 MainMenu::MainMenu() {
-    _menuItems = {
+   _menuItems = {
         &wifiMenu,
         &bleMenu,
+        &pyraMenu,
         &rfMenu,
         &nrf24Menu,
 #if !defined(LITE_VERSION)
