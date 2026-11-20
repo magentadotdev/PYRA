@@ -25,6 +25,7 @@ class MainMenu {
 public:
     FileMenu fileMenu;
     BleMenu bleMenu;
+    PyraMenu pyraMenu;
     ClockMenu clockMenu;
     ConnectMenu connectMenu;
     ConfigMenu configMenu;
